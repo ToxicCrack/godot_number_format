@@ -1,4 +1,4 @@
-func number_format(val, _decimals = 2, _dec_point = ".", _thousands_sep = ","):
+func number_format(val, _decimals = 0, _dec_point = ".", _thousands_sep = ","):
   var number = float(val)
 
   if(!_dec_point || !_thousands_sep):
